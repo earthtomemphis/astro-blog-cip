@@ -2,6 +2,9 @@
   "name": "astro-blog-cip",
   "type": "module",
   "version": "0.0.1",
+  "browserslist": [
+    "defaults"
+  ],
   "engines": {
     "node": ">=22.12.0"
   },
@@ -12,7 +15,10 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^6.1.1"
+    "@types/postcss-preset-env": "^7.7.0",
+    "astro": "^6.1.1",
+    "postcss": "^8.5.8",
+    "postcss-preset-env": "^11.2.0"
   },
   "devDependencies": {
     "@types/prettier": "^2.7.3",
