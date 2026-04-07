@@ -22,6 +22,8 @@
     "postcss-preset-env": "^11.2.0"
   },
   "devDependencies": {
+    "@iconify-icons/tabler": "^1.2.95",
+    "@iconify-json/tabler": "^1.2.33",
     "@types/prettier": "^2.7.3",
     "prettier": "3.8.1",
     "prettier-plugin-astro": "0.14.1"

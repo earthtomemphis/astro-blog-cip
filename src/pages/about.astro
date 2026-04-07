@@ -1,7 +1,31 @@
 ---
-import MainLayout from "../layout/MainLayout.astro";
+import Link from '../components/Link.astro';
+import MainLayout from '../layout/MainLayout.astro';
 ---
 
 <MainLayout title="About" description="My about page">
-  <p>hi from about</p>
+	<section class="container about" aria-label="About Me">
+		<img
+			src="/images/headshot.jpg"
+			alt="My headshot"
+			width="200"
+			height="330"
+		/>
+		<div class="content">
+			<h1 class="h1">My Blog</h1>
+			<p>
+				Lorem ipsum dolor sit, amet consectetur adipisicing
+				elit. Laborum corporis dolores necessitatibus officiis
+				fuga excepturi temporibus recusandae saepe beatae.
+				Eveniet beatae in officiis laboriosam. Optio architecto
+				totam sint accusamus, vero numquam, possimus quasi, eius
+				voluptate voluptatum ratione excepturi harum eum?
+			</p>
+			<Link
+				href="mailto:chris@condinginpubluc.dev"
+				style="primary"
+				text="Contact Me"
+			/>
+		</div>
+	</section>
 </MainLayout>
